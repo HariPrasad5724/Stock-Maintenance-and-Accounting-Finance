@@ -88,7 +88,7 @@ public class CustomerSearch implements ActionListener
              try
 	     {
                       Connection con=null;
-                      con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","system","572415");
+                      con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","system","57241516");
                       System.out.println("Connected");
                      
                       String sql = "select fabtype,color,gsm from CustomerDetails where customer_name='"+jt1.getText()+"' or customer_phone='"+jt2.getText()+"' ";    

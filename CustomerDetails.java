@@ -91,7 +91,7 @@ public class CustomerDetails implements ActionListener
              try
 	     {
                       Connection con=null;
-                      con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","system","572415");
+                      con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","system","57241516");
                       System.out.println("Connected");
                      
                       String sql = "insert into CustomerDetails values('" +jt1.getText()+ "','" +jt2.getText()+ "','" +type+ "','" +color+ "','" +gsm+ "')";

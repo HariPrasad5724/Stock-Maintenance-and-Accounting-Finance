@@ -100,7 +100,7 @@ public class BillSearch implements ActionListener
                 try
                 {
                       Connection con=null;
-                      con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","system","572415");
+                      con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","system","57241516");
                       System.out.println("Connected");
                      
                       String sql = "select customer_name,weight,inccost from IncomeBills where billno = '"+jt1.getText()+"'";    
