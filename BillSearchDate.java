@@ -29,7 +29,7 @@ public class BillSearchDate implements ActionListener
         cb2.setBounds(370,80,60,30);    
         f.add(cb2);
         
-        String year[]={"2020","2021"};        
+        String year[]={"2019","2020","2021"};        
         cb3=new JComboBox(year);    
         cb3.setBounds(450,80,70,30);    
         f.add(cb3);
